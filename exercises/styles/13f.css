@@ -1,0 +1,56 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.profile-pic-div {
+    margin-right: 20px;
+}
+
+.profile-pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.username {
+    color: gray;
+}
+
+.video-link {
+    display: flex;
+    border-width: 1px;
+    align-items: center;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 25px;
+    padding-right: 10px;
+}
+
+.video-info {
+    flex: 1;
+    margin: -30px;
+    height: 150px;
+    padding-left: 50px;
+    background-color: white;
+}
+
+.video-thumbnail {
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.youtube {
+    color: gray;
+}
+
+
